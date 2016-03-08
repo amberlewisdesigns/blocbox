@@ -42,6 +42,7 @@ html, body{
    min-height: 1px;
    margin:0 2% 20px;
  }
+
  @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -67,6 +68,12 @@ html, body{
    }
  }
 @media (min-width: 1600px) {
+   .hero h1{
+      font-size: 30px;
+   }
+   .hero p{
+      font-size: 20px;
+   }
    .container {
       width: 1570px;
    }
