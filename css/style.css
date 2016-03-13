@@ -154,6 +154,18 @@ header .hero {
    display: block;
    margin:3em auto 0;
  }
+
+header .header-left{
+   width: 200px;
+   display: inline-block;
+}
+
+header .header-right{
+   display: inline-block;
+   float: right;
+}
+
+
  /* BUTTONS */
  .btn {
    border-radius: 4px;
@@ -323,9 +335,10 @@ header .hero {
 
    /* FOOTER */
 footer {
-   background-color: #34495E;
-   background-image: linear-gradient(to top,
-      #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
+   /*background-color: #34495E;*/
+   /*background-image: linear-gradient(to top, #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);*/
+   
+   background-color: #34495E ;
    color: #FFFFFF;
    height: 150px;
    position: relative;
@@ -357,8 +370,9 @@ footer .logo{
 @media (min-width: 992px){
    footer{
      background-color: #3498DB;
-     background-image: linear-gradient (left,
-        #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);
+     /*background-image: linear-gradient (left, #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);*/
+    
+      background-color: #34495E ;
      height: 100px;
 }
    footer p, footer nav ul{
