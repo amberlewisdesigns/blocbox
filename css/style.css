@@ -43,6 +43,26 @@ html, body{
    margin:0 2% 20px;
  }
 
+@media (max-width: 320px) {
+   .container {
+      width:310px;
+   }
+   .navigation, .navigation ul {
+      height: auto;
+   }
+   .navigation li, .navigation a {
+      float: none;
+      display: block;
+      margin: 0;
+      height: auto;
+   }
+   
+   .navigation a {
+      width: auto;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      padding: 1em;
+   }
+ }
 @media (min-width: 768px) {
    .container {
      width: 750px;
