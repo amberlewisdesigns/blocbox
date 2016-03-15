@@ -664,3 +664,8 @@ footer .logo{
    line-height: 18px;
    margin:5px 0 0;
  }
+
+.left-nav .items ul li.active a {
+   font-weight: bold;
+   text-shadow: 0 0 1px white;
+ }
