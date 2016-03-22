@@ -85,8 +85,7 @@ html, body{
  /* HEADER */
  header {
    color:#FFFFFF;
-   background: #34495E;
-   background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+   background: #A5BCCE;
  }
  header nav {
    padding:1em 0;
@@ -115,7 +114,7 @@ html, body{
    text-decoration: none;
  }
  header nav ul > li.btn-outline:hover > a {
-   color:#34495E;
+   color:#517A9E;
 }
 header .hero {
    text-align: center;
@@ -189,15 +188,16 @@ header .header-right{
 
  /* BUTTONS */
  .btn {
-   border-radius: 4px;
-   color:#FFFFFF;
-   font-weight: 700;
-   text-decoration: none;
-   padding:10px 30px;
-   background: #2ECC71;
-   border: 2px solid #2ECC71;
-   box-shadow: 0px 2px 0px 0px #22894E;
- }
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 19px;
+    background: rgba(226, 125, 49, 0.94);
+    box-shadow: 0px 2px 0px 0px #CF6E26;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
 
  /* BENEFITS */
  .benefits {
@@ -214,28 +214,31 @@ header .header-right{
    display: inline-block;
  }
  .benefits i {
-   color:#3498DB;
+   color:#517A9E;
    font-size:60px;
    margin:0;
    vertical-align: middle;
  }
  .benefits h2 {
-   color:#3498DB;
+   color:#517A9E;
+   font-size: 22px;
  }
 
  /* PRICING */
  .pricing {
-   background: #34495E url("../images/background photo.png") top center no-repeat;
-   background: url("../images/background photo.png") top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
-   background-size:cover;
-   text-align: center;
-   padding:4em 0;
+   /*background: #34495E url("../images/background photo.png") top center no-repeat;*/
+/*   background: url("../images/background photo.png") top center no-repeat, linear-gradient(206deg, #5F81A3 0%, #F0F4F8 94%);
+*/   background: rgba(205, 222, 234, 0.65);
+     background-size:cover;
+     text-align: center;
+     padding:4em 0;
  }
  .pricing h2, .pricing p {
-   color:#FFFFFF;
+   color:#193E5A;
  }
  .pricing ul {
    margin:0 auto;
+   margin-bottom: -30px;
    padding:2em 0;
  }
  .pricing ul li {
@@ -244,33 +247,33 @@ header .header-right{
  .box {
    padding:0 15px 15px;
    background: #FFFFFF;
-   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+   border: 1px solid #9FB7CC;
    min-height: 439px;
    position: relative;
    margin-top: 25px;
  }
  .box.middle {
-   min-height: 485px;
-   margin-top:0px;
+   border: 2px solid rgba(226, 125, 49, 0.94);
  }
  .box h3 {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    font-weight: 600;
    text-transform: uppercase;
-   background: #E2E2E2;
-   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);
+  /* background: #E2E2E2;
+   box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.40);*/
+   background: #FFFFFF;
    left:0;
    right:0;
    top:0;
    text-align: center;
-   margin:0 -15px 40px;
+   margin:10px -15px 40px;
    padding:10px 0;
  }
  .box h4 {
-   font-size:50px;
-   font-weight: normal;
-   margin:40px 0 10px;
-   color:#3498DB;
+    font-size: 44px;
+    font-weight: normal;
+    margin: -49px 0 14px;
+    color: #7094B1;
  }
  .box h4 span {
    font-size:32px;
@@ -310,7 +313,7 @@ header .header-right{
    padding-top:20px;
  }
  .testimonials h2 {
-   color:#3498DB;
+   color:#193E5A;
  }
  .testimonials ul li {
    list-style-type: none;
@@ -319,7 +322,7 @@ header .header-right{
    color:#FFFFFF;
    text-align: left;
    font-style: italic;
-   background:#34495E;
+   background:#9FB7CC;
    position: relative;
    padding:30px;
    width:auto;
@@ -334,7 +337,7 @@ header .header-right{
    width: 0;
    position: absolute;
    pointer-events: none;
-   border-top-color: #34495E;
+   border-top-color: #9FB7CC;
    border-width: 10px;
    margin-left: -10px;
  }
@@ -410,7 +413,7 @@ footer .logo{
 
 /* DASHBOARD */
  .dashboard {
-   background:#F7F7F7;
+   background:#F7FBFF;
  }
  .left-nav {
    height: 100%;
@@ -564,7 +567,7 @@ footer .logo{
    font-weight: 100;
    margin:0 0 30px;
    font-size: 36px;
-   color: #3498DB;
+   color: #4A6682;
    line-height: 33px;
    float: left;
    display:inline-block;
@@ -666,7 +669,7 @@ footer .logo{
    margin:0;
  }
  .item-box h2 a {
-   color: #3498DB;
+   color: #4479A0;
    text-decoration: none;
  }
  .item-box h2 img {
@@ -685,5 +688,4 @@ footer .logo{
 
 .left-nav .items ul li.active a {
    font-weight: bold;
-   text-shadow: 0 0 1px white;
  }
