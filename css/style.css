@@ -245,7 +245,7 @@ header .header-right{
    list-style-type: none;
  }
  .box {
-   padding:0 15px 15px;
+   padding:0 66px 15px;
    background: #FFFFFF;
    border: 1px solid #9FB7CC;
    min-height: 439px;
@@ -274,6 +274,8 @@ header .header-right{
     font-weight: normal;
     margin: -49px 0 14px;
     color: #7094B1;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
  }
  .box h4 span {
    font-size:32px;
