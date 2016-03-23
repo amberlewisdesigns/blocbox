@@ -85,7 +85,7 @@ html, body{
  /* HEADER */
  header {
    color:#FFFFFF;
-   background: #A5BCCE;
+   background: #829BAF;
  }
  header nav {
    padding:1em 0;
@@ -214,13 +214,13 @@ header .header-right{
    display: inline-block;
  }
  .benefits i {
-   color:#517A9E;
+   color:#193E5A;
    font-size:60px;
    margin:0;
    vertical-align: middle;
  }
  .benefits h2 {
-   color:#517A9E;
+   color:#193E5A;
    font-size: 22px;
  }
 
@@ -324,7 +324,7 @@ header .header-right{
    color:#FFFFFF;
    text-align: left;
    font-style: italic;
-   background:#9FB7CC;
+   background:#829BAF;
    position: relative;
    padding:30px;
    width:auto;
@@ -339,7 +339,7 @@ header .header-right{
    width: 0;
    position: absolute;
    pointer-events: none;
-   border-top-color: #9FB7CC;
+   border-top-color: #829BAF;
    border-width: 10px;
    margin-left: -10px;
  }
@@ -364,7 +364,7 @@ footer {
    /*background-color: #34495E;*/
    /*background-image: linear-gradient(to top, #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);*/
    
-   background-color: #34495E ;
+   background-color: #829BAF ;
    color: #FFFFFF;
    /*height: 150px;*/
    position: relative;
@@ -395,10 +395,10 @@ footer .logo{
 }
 @media (min-width: 992px){
    footer{
-     background-color: #3498DB;
+     background-color: #829BAF;
      /*background-image: linear-gradient (left, #3498DB 0%, #3498DB 33.33337%, #34495E 33.33337%, #34495E 100%);*/
     
-      background-color: #34495E ;
+      background-color: #829BAF;
      /*height: 100px;*/
 }
    footer p, footer nav ul{
